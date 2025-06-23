@@ -1,37 +1,38 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-  width: 300px;
-  margin: 50px auto;
-  text-align: center;
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
 }
 
 #color-box {
-  width: 200px;
-  height: 200px;
-  margin: 20px auto;
-  background-color: #3498db; /* Default blue */
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  transition: background-color 0.3s ease;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: #3498db;
+    /* Default blue */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
 }
 
 #change-color-btn {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #2ecc71;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 #change-color-btn:hover {
-  background-color: #27ae60;
+    background-color: #27ae60;
 }
